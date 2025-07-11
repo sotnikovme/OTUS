@@ -14,4 +14,8 @@ def create_user():
     print(user_1)
     print(user_1.name)
 
+def test_args(name, age, *args):
+    print(name, age, args)
+
+test_args("Mikhail", 17, "sotnikovme@gmail.com", "men")
 create_user()
