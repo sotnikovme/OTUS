@@ -5,7 +5,7 @@ from base import Vehicle
 from engine import Engin
 
 class Car(Vehicle):
-    engine = None
+    engine: Engin
     def __init__(self, weight, fuel, fuel_consumption):
         super().__init__(self, weight, fuel, fuel_consumption)
 
